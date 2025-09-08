@@ -1,7 +1,14 @@
+import 'package:first_app/gradient_container.dart';
 import 'package:flutter/material.dart';
 
-void main(){
-runApp(MaterialApp(home: Text("hello youssef"),));
-
-
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        body: GradientContainer(Color.fromARGB(255, 33, 5, 109),Color.fromARGB(122, 192, 141, 250)),
+      ),
+    ),
+  );
 }
+
+
